@@ -1,0 +1,151 @@
+html, body{
+  height: 100%;
+
+  }/*classes*/
+.negmargin{
+  margin-top: -20px;
+}
+.blackO {
+  background: rgba(39,38,38,.90);
+}
+
+.black{
+  background: #272626;
+}
+
+.gray {
+  background: #eeeeee;
+}
+
+.rose {
+  background: #f2ece9;
+}
+
+/*Nav Partial*/
+.navbar-nav{
+  float: right;
+}
+
+/* FOOTER PARTIAL */
+.social img{
+  height: 40px;
+  width: 40px;
+  margin: 5px
+}
+
+footer p{
+  color: white;
+}
+
+/*landing page*/
+#landing {
+  background: url('restaurant.jpg') center no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+#landing h1{
+  color: white;
+}
+
+#landing h2{
+  color: white;
+}
+
+small{
+  color: white;
+}
+
+#landing p{
+  color: white;
+}
+
+
+/*About */
+#about {
+  background: url("chef.jpg") center no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+#story{
+  /*height: 300px;
+  width: 300px;*/
+  color: white;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one 🙂       */
+  display: flex;
+  align-items: center;
+}
+
+#about footer{
+  margin-top: -80px;
+}
+
+/*Menu*/
+#myCarousel{
+  margin-top: -20px;
+}
+#menu{
+  background: #f2ece9;
+}
+
+
+.carousel-inner img{
+  min-width: 100%;
+  max-height: 500px;
+  object-fit:cover;
+}
+
+
+#menu h1, h2,h3{
+  color: #272626;
+}
+
+.carousel-inner{
+  max-height: 190px;
+  min-height: 190px;
+}
+
+#menu-contain{
+  margin-bottom: 30px;
+}
+
+/* CONTACT */
+#contact h1{
+  color: #272626;
+}
+
+.wrap{
+  padding: 5%;
+  width: 100%;
+}
+
+#contact p{
+
+}
+
+
+@media screen and (min-width: 750px){
+
+  /*footer */
+  .social img{
+    height: 80px;
+    width: 80px;
+    margin: 10px
+  }
+
+
+  /*MENU */
+
+  #menu img{
+    max-height: 600px;
+  }
+  .carousel-inner{
+    max-height: 500px !important;
+    min-height: 500px;
+  }
+}
