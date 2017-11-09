@@ -23,7 +23,7 @@ app.get('/contact', function (req, res){
   res.render("contact");
 })
 
-app.listen(3000);
+app.listen(8080);
 
 /*
 app.use(express.static(__dirname + '/public', {
