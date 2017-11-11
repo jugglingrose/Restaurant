@@ -1,3 +1,5 @@
+'use strict'
+
 var express = require('express');
 var app = express();
 
@@ -23,10 +25,11 @@ app.get('/contact', function (req, res){
   res.render("contact");
 })
 
-app.listen(8080);
 
-/*
-app.use(express.static(__dirname + '/public', {
-  extensions: ['html']
-}));
-*/
+if (require.main === module) {
+    app.listen(8080, function() {
+        console.log("Local server started");
+    });
+}
+
+module.exports = app;
